@@ -1,0 +1,24 @@
+{'db': 0, 'username': None, 'password': None, 'socket_timeout': None, 'encoding': 'utf-8', 'encoding_errors': 'strict', 'decode_responses': False, 'retry_on_timeout': False, 'health_check_interval': 0, 'client_name': None, 'host': 'redis', 'port': 6379, 'socket_connect_timeout': None, 'socket_keepalive': None, 'socket_keepalive_options': None}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/local/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/app/webber.py", line 16, in <module>
+    a.set('wat', 'cancer')
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -3 connecting to redis:6379. Temporary failure in name resolution.

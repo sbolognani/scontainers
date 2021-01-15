@@ -1,0 +1,2 @@
+2020-10-08 13:27:08,483 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:27:11,485 - root - DEBUG - Driver knows visitor connected

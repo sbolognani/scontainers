@@ -1,0 +1,29 @@
+2020-10-08 13:15:19,058 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d&t=1602162918.3452353 HTTP/1.1" 200 None
+2020-10-08 13:15:19,060 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:15:19,062 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d&t=1602162919.0594625 HTTP/1.1" 200 None
+2020-10-08 13:15:19,065 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:15:19,151 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d&t=1602162919.0637789 HTTP/1.1" 200 None
+2020-10-08 13:15:19,153 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:15:19,155 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d&t=1602162919.1521733 HTTP/1.1" 200 None
+2020-10-08 13:15:19,158 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:15:35,035 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d&t=1602162919.1571345 HTTP/1.1" 200 None
+2020-10-08 13:15:35,039 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:15:35,041 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d&t=1602162935.0368164 HTTP/1.1" 200 None
+2020-10-08 13:15:35,045 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:15:43,321 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:15:43,325 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d HTTP/1.1" 200 None
+2020-10-08 13:15:43,326 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3f0fbe1b13d649aa84fd408f3006704d&t=1602162935.0434756 HTTP/1.1" 200 None
+2020-10-08 13:15:43,331 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:16:03,950 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): 0.0.0.0:7777
+2020-10-08 13:16:03,961 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&t=1602162963.9471908 HTTP/1.1" 200 None
+2020-10-08 13:16:03,966 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:16:03,968 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:16:03,971 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=53b586f523f243e4b2ecd3f707d482c8 HTTP/1.1" 200 None
+2020-10-08 13:16:03,972 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=53b586f523f243e4b2ecd3f707d482c8&t=1602162963.967043 HTTP/1.1" 200 None
+2020-10-08 13:16:03,974 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:16:04,977 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=53b586f523f243e4b2ecd3f707d482c8&t=1602162963.973526 HTTP/1.1" 200 None
+2020-10-08 13:16:04,979 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:16:04,982 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=53b586f523f243e4b2ecd3f707d482c8&t=1602162964.978204 HTTP/1.1" 200 None
+2020-10-08 13:16:04,985 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:16:05,189 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=53b586f523f243e4b2ecd3f707d482c8&t=1602162964.9834435 HTTP/1.1" 200 None
+2020-10-08 13:16:05,193 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0

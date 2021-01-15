@@ -1,0 +1,11 @@
+2020-10-08 14:12:30,943 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 14:12:30,947 - webwhatsapi - INFO - Checking for profile at firefox_cache
+2020-10-08 14:12:48,823 - root - DEBUG - driving
+2020-10-08 14:12:53,495 - root - DEBUG - Driver knows visitor connected
+2020-10-08 14:13:03,560 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/1602166383.png
+2020-10-08 14:13:24,611 - root - DEBUG - Wait for login timed out
+2020-10-08 14:13:34,669 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/1602166414.png
+2020-10-08 14:13:55,719 - root - DEBUG - Wait for login timed out
+2020-10-08 14:14:05,762 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/1602166445.png
+2020-10-08 14:14:26,813 - root - DEBUG - Wait for login timed out
+2020-10-08 14:14:37,300 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/1602166476.png

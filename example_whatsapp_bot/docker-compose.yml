@@ -1,0 +1,52 @@
+version: "3"
+
+services:
+  firefox:
+    image: selenium/standalone-firefox-debug:3.14.0-curium
+    ports:
+      - "4444:4444"  # Selenium Firefox
+      - "5900:5900"  # VNC
+    volumes:
+      - "/dev/shm:/dev/shm"  # tmpfs mem that appears as fs, can use swap
+    networks:
+      - selenium
+#    healthcheck:
+#      test: ["CMD", "curl", "-f",
+#             "http://firefox:4444/wd/hubselenium-server/driver/?cmd=getLogMessages"]
+#      interval: 30s
+#      timeout: 10s
+#      retries: 5
+
+  redis:
+    image: redis:alpine
+    command: redis-server --appendonly yes
+    ports:
+      - "6379:6379"
+    networks:
+      - selenium
+#    volumes:
+#      - /redis/redis.conf:/usr/local/etc/redis/redis.conf
+
+  pauvretype:
+     container_name: pauvretype
+     build: .
+     environment:
+       - SELENIUM=http://firefox:4444/wd/hub
+       - PYTHONUNBUFFERED=1
+     volumes:
+       - ".:/app"
+     command: bash app/run.sh
+     networks:
+       - selenium
+     ports:
+     - "7777:7777"  # Flask WebApp
+     depends_on:
+       - firefox
+       - redis
+     restart: on-failure:5
+
+volumes:
+  devshm:
+
+networks:
+  selenium:

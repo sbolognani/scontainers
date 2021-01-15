@@ -1,0 +1,17 @@
+2020-10-08 13:47:29,077 - webwhatsapi - INFO - Checking for profile at firefox_cache
+2020-10-08 13:47:47,164 - root - DEBUG - driving
+2020-10-08 13:47:51,070 - root - DEBUG - Driver knows visitor connected
+2020-10-08 13:48:01,134 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr1.png
+2020-10-08 13:48:01,173 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr2.png
+2020-10-08 13:48:22,216 - root - DEBUG - Wait for login timed out
+2020-10-08 13:48:32,283 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr1.png
+2020-10-08 13:48:32,338 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr2.png
+2020-10-08 13:48:53,395 - root - DEBUG - Wait for login timed out
+2020-10-08 13:49:03,450 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr1.png
+2020-10-08 13:49:03,482 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr2.png
+2020-10-08 13:49:24,540 - root - DEBUG - Wait for login timed out
+2020-10-08 13:49:34,589 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr1.png
+2020-10-08 13:49:34,632 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr2.png
+2020-10-08 13:49:55,690 - root - DEBUG - Wait for login timed out
+2020-10-08 13:50:06,280 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr1.png
+2020-10-08 13:50:06,324 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr2.png

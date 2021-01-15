@@ -1,0 +1,329 @@
+2020-10-08 12:56:52,921 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:56:52,923 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:56:52,925 - webwhatsapi - INFO - Checking for profile at firefox_cache
+2020-10-08 12:56:52,928 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "marionette": true, "acceptInsecureCerts": true}}
+2020-10-08 12:56:52,929 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:56:56,715 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session HTTP/1.1" 200 777
+2020-10-08 12:56:56,716 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:56:56,716 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/timeouts {"script": 500000}
+2020-10-08 12:56:56,717 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:56:56,737 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/timeouts HTTP/1.1" 200 15
+2020-10-08 12:56:56,737 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:56:56,737 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/timeouts {"implicit": 10000}
+2020-10-08 12:56:56,738 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:56:56,756 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/timeouts HTTP/1.1" 200 15
+2020-10-08 12:56:56,756 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:56:56,757 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/url {"url": "https://web.whatsapp.com"}
+2020-10-08 12:56:56,757 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:56:59,999 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/url HTTP/1.1" 200 15
+2020-10-08 12:56:59,999 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:00,000 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "window.localStorage.setItem('WABrowserId', '\"H6qICBkJklSUtUpCpFTvkw==\"');window.localStorage.setItem('WALangPref', '\"en\"');window.localStorage.setItem('clear', '{}');window.localStorage.setItem('debugCursor', '54');window.localStorage.setItem('getItem', '{}');window.localStorage.setItem('key', '{}');window.localStorage.setItem('length', '12');window.localStorage.setItem('remember-me', 'true');window.localStorage.setItem('removeItem', '{}');window.localStorage.setItem('setItem', '{}');window.localStorage.setItem('storage_test', 'storage_test');window.localStorage.setItem('whatsapp-mutex', '\"x510358304:init_1601558768301\"');", "args": []}
+2020-10-08 12:57:00,001 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:00,018 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 14
+2020-10-08 12:57:00,018 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:00,019 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/refresh {}
+2020-10-08 12:57:00,020 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:01,134 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/refresh HTTP/1.1" 200 15
+2020-10-08 12:57:01,134 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:01,134 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/element {"using": "css selector", "value": ".two"}
+2020-10-08 12:57:01,135 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:01,718 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:57:01,719 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:03,882 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161812.9213402 HTTP/1.1" 200 None
+2020-10-08 12:57:03,883 - engineio.client - INFO - Received packet MESSAGE data 2["after_connect",{"data":"Lets dance"}]
+2020-10-08 12:57:03,883 - socketio.client - INFO - Received event "after_connect" [/]
+2020-10-08 12:57:03,883 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:03,886 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:03,889 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161823.8845143 HTTP/1.1" 200 None
+2020-10-08 12:57:03,890 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":0}]
+2020-10-08 12:57:03,891 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:03,891 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:03,893 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:09,915 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161823.8916018 HTTP/1.1" 200 None
+2020-10-08 12:57:09,915 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":1}]
+2020-10-08 12:57:09,916 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:09,916 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:09,918 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:11,155 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/element HTTP/1.1" 404 282
+2020-10-08 12:57:11,155 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:11,156 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/element {"using": "css selector", "value": "canvas"}
+2020-10-08 12:57:11,157 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:11,165 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:57:11,166 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:11,170 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/element HTTP/1.1" 200 88
+2020-10-08 12:57:11,171 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:12,900 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161829.916733 HTTP/1.1" 200 None
+2020-10-08 12:57:12,901 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":1}]
+2020-10-08 12:57:12,901 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:12,901 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:12,904 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:17,882 - engineio.client - INFO - Sending packet PING data None
+2020-10-08 12:57:17,886 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:17,889 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f HTTP/1.1" 200 None
+2020-10-08 12:57:17,890 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161832.902073 HTTP/1.1" 200 None
+2020-10-08 12:57:17,890 - engineio.client - INFO - Received packet PONG data None
+2020-10-08 12:57:17,891 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:17,893 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:18,174 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:57:18,174 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:18,187 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:57:18,188 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:23,904 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161837.8912816 HTTP/1.1" 200 None
+2020-10-08 12:57:23,905 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":1}]
+2020-10-08 12:57:23,905 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:23,905 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:23,908 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:25,194 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:57:25,195 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:25,212 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:57:25,213 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:29,926 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161843.9063401 HTTP/1.1" 200 None
+2020-10-08 12:57:29,928 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":2}]
+2020-10-08 12:57:29,929 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:29,930 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:29,932 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:32,220 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:57:32,221 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:32,240 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:57:32,241 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:32,923 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161849.9307356 HTTP/1.1" 200 None
+2020-10-08 12:57:32,924 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":2}]
+2020-10-08 12:57:32,925 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:32,925 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:32,929 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:39,247 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:57:39,249 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:39,269 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:57:39,270 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:42,887 - engineio.client - INFO - Sending packet PING data None
+2020-10-08 12:57:42,891 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:42,896 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f HTTP/1.1" 200 None
+2020-10-08 12:57:42,898 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161852.9261453 HTTP/1.1" 200 None
+2020-10-08 12:57:42,899 - engineio.client - INFO - Received packet PONG data None
+2020-10-08 12:57:42,900 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:42,903 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:43,926 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161862.900551 HTTP/1.1" 200 None
+2020-10-08 12:57:43,928 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":2}]
+2020-10-08 12:57:43,929 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:43,929 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:43,934 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:46,278 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:57:46,280 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:46,297 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:57:46,297 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:57:49,937 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161863.9302666 HTTP/1.1" 200 None
+2020-10-08 12:57:49,937 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":3}]
+2020-10-08 12:57:49,938 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:49,938 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:49,940 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:52,944 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161869.9392064 HTTP/1.1" 200 None
+2020-10-08 12:57:52,946 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":3}]
+2020-10-08 12:57:52,947 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:57:52,947 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:57:52,951 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:57:53,305 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:57:53,306 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:57:53,325 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:57:53,326 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:00,331 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:00,332 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:00,346 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:00,347 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:03,926 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161872.948575 HTTP/1.1" 200 None
+2020-10-08 12:58:03,927 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":3}]
+2020-10-08 12:58:03,928 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:03,928 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:03,931 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:07,355 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:07,356 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:07,374 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:07,374 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:07,892 - engineio.client - INFO - Sending packet PING data None
+2020-10-08 12:58:07,895 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:07,901 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f HTTP/1.1" 200 None
+2020-10-08 12:58:07,902 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161883.9291914 HTTP/1.1" 200 None
+2020-10-08 12:58:07,904 - engineio.client - INFO - Received packet PONG data None
+2020-10-08 12:58:07,904 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:07,908 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:09,958 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161887.9047832 HTTP/1.1" 200 None
+2020-10-08 12:58:09,959 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":4}]
+2020-10-08 12:58:09,960 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:09,961 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:09,966 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:12,964 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161889.9619699 HTTP/1.1" 200 None
+2020-10-08 12:58:12,965 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":4}]
+2020-10-08 12:58:12,966 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:12,966 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:12,968 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:14,383 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:14,384 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:14,405 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:14,406 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:21,414 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:21,416 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:21,432 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:21,433 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:23,935 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161892.966621 HTTP/1.1" 200 None
+2020-10-08 12:58:23,936 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":4}]
+2020-10-08 12:58:23,937 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:23,937 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:23,940 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:28,438 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:28,439 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:28,450 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:28,450 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:29,977 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161903.937657 HTTP/1.1" 200 None
+2020-10-08 12:58:29,979 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":5}]
+2020-10-08 12:58:29,980 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:29,980 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:29,984 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:32,896 - engineio.client - INFO - Sending packet PING data None
+2020-10-08 12:58:32,899 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:32,902 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f HTTP/1.1" 200 None
+2020-10-08 12:58:32,903 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161909.98081 HTTP/1.1" 200 None
+2020-10-08 12:58:32,904 - engineio.client - INFO - Received packet PONG data None
+2020-10-08 12:58:32,904 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:32,906 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:32,984 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161912.9044635 HTTP/1.1" 200 None
+2020-10-08 12:58:32,985 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":5}]
+2020-10-08 12:58:32,985 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:32,985 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:32,988 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:35,458 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:35,460 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:35,479 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:35,479 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:42,487 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:42,489 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:42,506 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:42,506 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:43,952 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161912.9864635 HTTP/1.1" 200 None
+2020-10-08 12:58:43,953 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":5}]
+2020-10-08 12:58:43,953 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:43,954 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:43,955 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:49,514 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:49,515 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:49,525 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:49,526 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:49,997 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161923.9544098 HTTP/1.1" 200 None
+2020-10-08 12:58:49,998 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":6}]
+2020-10-08 12:58:49,998 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:50,000 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:49,998 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:53,004 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161929.9989157 HTTP/1.1" 200 None
+2020-10-08 12:58:53,005 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":6}]
+2020-10-08 12:58:53,005 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:53,005 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:58:53,007 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:56,531 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:58:56,532 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:58:56,542 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:58:56,543 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:58:57,899 - engineio.client - INFO - Sending packet PING data None
+2020-10-08 12:58:57,903 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:58:57,908 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f HTTP/1.1" 200 None
+2020-10-08 12:58:57,909 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161933.006006 HTTP/1.1" 200 None
+2020-10-08 12:58:57,911 - engineio.client - INFO - Received packet PONG data None
+2020-10-08 12:58:57,911 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:58:57,915 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:03,551 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:03,552 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:03,568 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:03,569 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:03,975 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161937.9122567 HTTP/1.1" 200 None
+2020-10-08 12:59:03,977 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":6}]
+2020-10-08 12:59:03,978 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:03,978 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:03,981 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:10,016 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161943.979035 HTTP/1.1" 200 None
+2020-10-08 12:59:10,017 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":7}]
+2020-10-08 12:59:10,017 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:10,017 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:10,019 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:10,576 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:10,577 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:10,589 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:10,590 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:13,027 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161950.0180466 HTTP/1.1" 200 None
+2020-10-08 12:59:13,029 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":7}]
+2020-10-08 12:59:13,029 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:13,030 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:13,034 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:17,597 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:17,599 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:17,614 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:17,614 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:22,900 - engineio.client - INFO - Sending packet PING data None
+2020-10-08 12:59:22,904 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:22,909 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f HTTP/1.1" 200 None
+2020-10-08 12:59:22,910 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161953.0310426 HTTP/1.1" 200 None
+2020-10-08 12:59:22,912 - engineio.client - INFO - Received packet PONG data None
+2020-10-08 12:59:22,912 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:22,916 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:23,996 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161962.9132683 HTTP/1.1" 200 None
+2020-10-08 12:59:23,998 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":7}]
+2020-10-08 12:59:23,999 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:23,998 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:24,005 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:24,622 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:24,624 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:24,652 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:24,653 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:30,022 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161964.0018716 HTTP/1.1" 200 None
+2020-10-08 12:59:30,023 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":8}]
+2020-10-08 12:59:30,024 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:30,024 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:30,028 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:31,661 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:31,661 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:31,672 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:31,672 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:33,045 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161970.0255342 HTTP/1.1" 200 None
+2020-10-08 12:59:33,046 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":8}]
+2020-10-08 12:59:33,047 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:33,047 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:33,052 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:38,680 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:38,681 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:38,696 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:38,697 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:44,018 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161973.0487583 HTTP/1.1" 200 None
+2020-10-08 12:59:44,019 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":8}]
+2020-10-08 12:59:44,019 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:44,019 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:44,021 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:45,705 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:45,706 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:45,721 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:45,722 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:47,905 - engineio.client - INFO - Sending packet PING data None
+2020-10-08 12:59:47,907 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:47,910 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f HTTP/1.1" 200 None
+2020-10-08 12:59:47,910 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161984.0205 HTTP/1.1" 200 None
+2020-10-08 12:59:47,912 - engineio.client - INFO - Received packet PONG data None
+2020-10-08 12:59:47,912 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:47,914 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:50,042 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161987.9125292 HTTP/1.1" 200 None
+2020-10-08 12:59:50,044 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":9}]
+2020-10-08 12:59:50,045 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:50,045 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:50,049 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:52,729 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:52,730 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:52,742 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:52,743 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:59:53,063 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161990.046223 HTTP/1.1" 200 None
+2020-10-08 12:59:53,064 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":9}]
+2020-10-08 12:59:53,064 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 12:59:53,064 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 12:59:53,066 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 12:59:59,751 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:59:59,752 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:59:59,766 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/9c87d7da-c8bf-4b4f-bbcc-52ea874cbfb3/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:59:59,767 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 13:00:04,037 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f&t=1602161993.0649638 HTTP/1.1" 200 None
+2020-10-08 13:00:04,038 - engineio.client - INFO - Received packet MESSAGE data 2/test,["cancer",{"data":"Server generated event","count":9}]
+2020-10-08 13:00:04,038 - engineio.client - INFO - Sending polling GET request to http://0.0.0.0:7777/socket.io/?transport=polling&EIO=3&sid=3d3f7f085851425f82658644203bc52f
+2020-10-08 13:00:04,038 - socketio.client - INFO - Received event "cancer" [/test]
+2020-10-08 13:00:04,040 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0

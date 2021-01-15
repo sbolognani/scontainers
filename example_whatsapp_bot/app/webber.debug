@@ -1,0 +1,29 @@
+past thread.....
+ * Serving Flask app "webber" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:7777/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 267-530-500
+127.0.0.1 - - [02/Oct/2020 13:25:33] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 13:25:33] "[37mGET /static/imgcube.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 13:25:33] "[33mGET /static/images/qr.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 13:25:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 13:25:33] "[37mGET /static/images/qr1.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 13:25:34] "[37mGET /static/images/qr2.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 13:25:36] "[37mGET /static/images/qr1.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 13:25:46] "[37mGET /static/images/qr2.png HTTP/1.1[0m" 200 -
+ * Detected change in '/home/db/Pauvre_Type/app/webber.py', reloading
+past thread.....
+watagua
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 267-530-500
+ * Detected change in '/home/db/Pauvre_Type/app/webber.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 267-530-500
+watagua

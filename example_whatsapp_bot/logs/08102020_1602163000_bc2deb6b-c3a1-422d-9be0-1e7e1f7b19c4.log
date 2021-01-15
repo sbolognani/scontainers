@@ -1,0 +1,8 @@
+2020-10-08 13:16:48,223 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=7c60f0f9a81b464aa0a5264f3d2a52f9&t=1602163000.9082499 HTTP/1.1" 200 None
+2020-10-08 13:16:48,226 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:16:48,229 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=7c60f0f9a81b464aa0a5264f3d2a52f9&t=1602163008.2248952 HTTP/1.1" 200 None
+2020-10-08 13:16:48,232 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:17:05,874 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
+2020-10-08 13:17:05,877 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "POST /socket.io/?transport=polling&EIO=3&sid=7c60f0f9a81b464aa0a5264f3d2a52f9 HTTP/1.1" 200 None
+2020-10-08 13:17:05,877 - urllib3.connectionpool - DEBUG - http://0.0.0.0:7777 "GET /socket.io/?transport=polling&EIO=3&sid=7c60f0f9a81b464aa0a5264f3d2a52f9&t=1602163008.230501 HTTP/1.1" 200 None
+2020-10-08 13:17:05,880 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0

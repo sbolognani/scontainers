@@ -1,0 +1,9 @@
+2020-10-08 14:34:10,324 - webwhatsapi - INFO - Checking for profile at firefox_cache
+2020-10-08 14:34:27,343 - root - DEBUG - driving
+2020-10-08 14:34:28,566 - root - DEBUG - Driver knows visitor connected
+2020-10-08 14:34:38,639 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/1602167678.png
+2020-10-08 14:34:38,668 - root - DEBUG - broadcasting event: new_qr
+2020-10-08 14:34:59,706 - root - DEBUG - Wait for login timed out
+2020-10-08 14:35:03,688 - root - DEBUG - broadcasting event: scan_success
+2020-10-08 14:35:03,689 - webwhatsapi - INFO - Saving profile from /tmp/tmpgfy3pold/webdriver-py-profilecopy to firefox_cache
+2020-10-08 14:35:03,818 - root - DEBUG - broadcasting event: retrieving_contacts

@@ -1,0 +1,5 @@
+2020-10-08 14:53:18,853 - webwhatsapi - INFO - Checking for profile at firefox_cache
+2020-10-08 14:53:30,671 - root - DEBUG - driving
+2020-10-08 14:53:37,271 - root - DEBUG - Driver knows visitor connected
+2020-10-08 14:53:37,286 - root - DEBUG - Already logged in
+2020-10-08 14:53:37,286 - root - DEBUG - broadcasting event: retrieving_chats

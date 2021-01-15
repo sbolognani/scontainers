@@ -1,0 +1,41 @@
+2020-10-08 12:33:10,234 - webwhatsapi - INFO - Checking for profile at firefox_cache
+2020-10-08 12:33:10,238 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "marionette": true, "acceptInsecureCerts": true}}
+2020-10-08 12:33:10,238 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:23,814 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session HTTP/1.1" 200 777
+2020-10-08 12:33:23,815 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:23,816 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/timeouts {"script": 500000}
+2020-10-08 12:33:23,816 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:24,388 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/timeouts HTTP/1.1" 200 15
+2020-10-08 12:33:24,388 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:24,389 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/timeouts {"implicit": 10000}
+2020-10-08 12:33:24,390 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:24,631 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/timeouts HTTP/1.1" 200 15
+2020-10-08 12:33:24,631 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:24,631 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/url {"url": "https://web.whatsapp.com"}
+2020-10-08 12:33:24,632 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:28,289 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/url HTTP/1.1" 200 15
+2020-10-08 12:33:28,290 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:28,290 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/execute/sync {"script": "window.localStorage.setItem('WABrowserId', '\"H6qICBkJklSUtUpCpFTvkw==\"');window.localStorage.setItem('WALangPref', '\"en\"');window.localStorage.setItem('clear', '{}');window.localStorage.setItem('debugCursor', '54');window.localStorage.setItem('getItem', '{}');window.localStorage.setItem('key', '{}');window.localStorage.setItem('length', '12');window.localStorage.setItem('remember-me', 'true');window.localStorage.setItem('removeItem', '{}');window.localStorage.setItem('setItem', '{}');window.localStorage.setItem('storage_test', 'storage_test');window.localStorage.setItem('whatsapp-mutex', '\"x510358304:init_1601558768301\"');", "args": []}
+2020-10-08 12:33:28,291 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:28,308 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/execute/sync HTTP/1.1" 200 14
+2020-10-08 12:33:28,308 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:28,309 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/refresh {}
+2020-10-08 12:33:28,309 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:28,821 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:33:28,821 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:29,311 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/refresh HTTP/1.1" 200 15
+2020-10-08 12:33:29,311 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:29,312 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/element {"using": "css selector", "value": ".two"}
+2020-10-08 12:33:29,312 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:29,347 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:33:29,348 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:36,354 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/execute/sync {"script": "if (document.querySelector('*[data-icon=chat]') !== null) { return true } else { return false }", "args": []}
+2020-10-08 12:33:36,355 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:39,360 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/element HTTP/1.1" 404 282
+2020-10-08 12:33:39,360 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:39,361 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://172.21.0.3:4444/wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/element {"using": "css selector", "value": "canvas"}
+2020-10-08 12:33:39,361 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 172.21.0.3:4444
+2020-10-08 12:33:39,369 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/execute/sync HTTP/1.1" 200 15
+2020-10-08 12:33:39,369 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-10-08 12:33:39,375 - urllib3.connectionpool - DEBUG - http://172.21.0.3:4444 "POST /wd/hub/session/347f5088-9a70-4e17-8e70-680b42b52b56/element HTTP/1.1" 200 88
+2020-10-08 12:33:39,375 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request

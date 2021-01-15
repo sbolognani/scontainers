@@ -1,0 +1,5 @@
+2020-10-07 14:48:57,354 - root - ERROR - Cancer
+Traceback (most recent call last):
+  File "/opt/project/app/whapper.py", line 274, in <module>
+    raise ConnectionAbortedError
+ConnectionAbortedError

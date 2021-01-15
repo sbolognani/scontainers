@@ -1,0 +1,7 @@
+2020-10-08 14:22:48,678 - webwhatsapi - INFO - Checking for profile at firefox_cache
+2020-10-08 14:23:06,346 - root - DEBUG - driving
+2020-10-08 14:23:11,247 - root - DEBUG - Driver knows visitor connected
+2020-10-08 14:23:21,313 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/1602167001.png
+2020-10-08 14:23:21,332 - root - DEBUG - broadcasting event: new_qr
+2020-10-08 14:23:31,422 - root - DEBUG - broadcasting event: scan_success
+2020-10-08 14:23:31,422 - root - DEBUG - broadcasting event: retrieving_contacts

@@ -1,0 +1,35 @@
+image: nikolaik/python-nodejs:python3.7-nodejs11
+options:
+  docker: true
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - apt-get update -y
+            - apt-get -y install rsync
+            # 1. remove old sources
+            - ssh somewhere@$PRODUCTION_SERVER 'rm -r /home/app/'
+            # 2. copy sources to server
+            - rsync -rav -e ssh --exclude='node_modules' --exclude='.git' ./ somewhere@$PRODUCTION_SERVER:/home/app
+            # 3. stop old docker containers and release new ones
+            - ssh somewhere@$PRODUCTION_SERVER "sh ./app/run_server.sh"
+
+  default:
+    - step:
+        name: python unit & lint
+        caches:
+          - pip
+        script:
+          - pip install -r backend/requirements.txt
+          - pip install flake8
+          - python -m unittest backend/src/tests/*
+          - flake8 backend/
+
+    - step:
+        name: js linter
+        caches:
+          - node
+        script:
+          - yarn --cwd frontend install
+          - yarn --cwd frontend lint

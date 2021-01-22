@@ -1,8 +1,0 @@
-2020-10-08 13:37:23,193 - webwhatsapi - INFO - Checking for profile at firefox_cache
-2020-10-08 13:37:41,400 - root - DEBUG - driving
-2020-10-08 13:38:02,022 - root - DEBUG - Driver knows visitor connected
-2020-10-08 13:38:02,052 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr1.png
-2020-10-08 13:38:02,093 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr2.png
-2020-10-08 13:38:23,138 - root - DEBUG - Wait for login timed out
-2020-10-08 13:38:33,205 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr1.png
-2020-10-08 13:38:33,259 - webwhatsapi - DEBUG - QRcode image saved at /app/app/static/images/qr2.png

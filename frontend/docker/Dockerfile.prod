@@ -1,0 +1,17 @@
+# build the source
+FROM node:10-alpine AS build_container
+WORKDIR /app
+COPY package.json yarn.lock /app/
+RUN yarn install
+COPY . /app/
+ENV REACT_APP_DOC_URL="/api/docs/"
+RUN yarn build
+
+# run nginx
+FROM nginx:alpine as production
+COPY --from=build_container /app/build /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY ./selfsigned.key /etc/ssl/private/selfsigned.key
+COPY ./selfsigned.crt /etc/ssl/certs/selfsigned.crt
+EXPOSE 443
+CMD ["nginx", "-g", "daemon off;"]

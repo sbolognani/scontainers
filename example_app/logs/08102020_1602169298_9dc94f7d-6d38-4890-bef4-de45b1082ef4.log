@@ -1,6 +1,0 @@
-2020-10-08 15:01:38,294 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 0.0.0.0
-2020-10-08 15:01:38,299 - webwhatsapi - INFO - Checking for profile at firefox_cache
-2020-10-08 15:01:50,902 - root - DEBUG - driving
-2020-10-08 15:01:53,674 - root - DEBUG - Driver knows visitor connected
-2020-10-08 15:01:53,690 - root - DEBUG - Already logged in
-2020-10-08 15:01:53,690 - root - DEBUG - broadcasting event: retrieving_chats

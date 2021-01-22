@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 30s
+  scrape_timeout: 10s
+
+rule_files:
+  - alert.yml
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+    - targets: ['prometheus:9090']
+
+  - job_name: 'grafana'
+    static_configs:
+      - targets: ['grafana:3000']
+
+  - job_name: 'flask'
+    metrics_path: '/api/metrics'
+    scrape_interval: 5s
+    tls_config:
+      insecure_skip_verify: true
+    scheme: https
+    static_configs:
+    - targets: ['frontend']
+
+  - job_name: 'docker'
+    static_configs:
+      - targets: ['host.docker.internal:9323']

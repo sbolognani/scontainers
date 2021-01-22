@@ -1,0 +1,38 @@
+version: "3.4"
+services:
+  backend:
+    image: webapp/backend
+    env_file:
+      - database_config.env
+    environment:
+      - FLASK_APP=src/main.py
+      - PYTHONUNBUFFERED=1
+      - MYSQL_HOST=database
+    build:
+     context: ./backend
+     dockerfile: docker/Dockerfile
+    depends_on:
+      - database
+    command: sh docker/run.sh
+
+  frontend:
+    image: webapp/frontend
+    ports:
+    - "443:443"
+    build:
+      context: ./frontend
+      dockerfile: docker/Dockerfile.prod
+    depends_on:
+      - backend
+
+  database:
+    image: mysql
+    env_file:
+      - database_config.env
+    command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci','--default-authentication-plugin=mysql_native_password']
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 5
+    volumes:
+      - ./db:/var/lib/mysql:rw

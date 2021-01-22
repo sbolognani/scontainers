@@ -1,0 +1,40 @@
+version: "3.4"
+services:
+  backend:
+    environment:
+      - FLASK_DEBUG=1
+    volumes:
+      - ./backend:/app
+    ports:
+      - "5000:5000"
+    restart: always
+    healthcheck:
+      start_period: "5s"
+      timeout: "5s"
+      interval: "30s"
+      retries: 1
+      test: "curl localhost:5000/api/online/ -sSf || exit 1"
+
+  frontend:
+    environment:
+      - REACT_APP_DOC_URL=http://somewhere.local:5000/api/docs/
+      - DANGEROUSLY_DISABLE_HOST_CHECK=true
+    ports:
+      - "35729"
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+    build:
+      dockerfile: docker/Dockerfile.dev
+
+  database:
+    ports:
+      - "3306:3306"
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - database

@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "flask.py", line 1, in <module>
-    from flask import Flask, render_template
-  File "/home/db/Pauvre_Type/app/flask.py", line 1, in <module>
-    from flask import Flask, render_template
-ImportError: cannot import name 'Flask' from partially initialized module 'flask' (most likely due to a circular import) (/home/db/Pauvre_Type/app/flask.py)

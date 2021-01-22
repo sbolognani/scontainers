@@ -1,0 +1,37 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "FileSaver": "^0.10.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "moment": "^2.22.0",
+    "react": "^16.3.1",
+    "react-bs-notifier": "^5.0.0",
+    "react-csv": "^1.0.14",
+    "react-dom": "^16.3.1",
+    "react-md-spinner": "^0.2.5",
+    "react-router-dom": "^4.2.2",
+    "reactstrap": "^8.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint --ext .js --ext .jsx src",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://backend:5000/",
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "react-scripts": "^1.1.4",
+    "sass-loader": "^7.0.1"
+  },
+  "importSort": {
+    ".js, .jsx, .es6, .es": {
+      "parser": "babylon",
+      "style": "renke"
+    }
+  }
+}
